@@ -56,13 +56,15 @@ img {
   height: 225px;
 }
 
-#hobby-list {
+/* I wanted to stack them vertically. */
+/* #hobby-list {
   list-style: none;
   padding: 0px;
-}
+} */
 
 #hobby1-img,
 #hobby2-img {
+  clear: both;
   width: 200px;
   /* Those edges look a bit sharp. */
   border-radius: 10px;
