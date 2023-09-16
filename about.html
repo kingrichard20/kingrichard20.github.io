@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nathan's Programming Portfolio</title>
+  <title>About Me - Nathan's Programming Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <img src="./banner.jpg">
+  <img src="./myBanner.png">
 
-  <table width="753px">
+  <table class="nav-table">
     <tbody>
       <tr>
         <td align="center">
@@ -22,18 +23,33 @@
         </td>
 
         <td align="center">
-          <a href="./about.html"><img src="./aboutme.png"></a>
+          <a href="./about.html"><img src="./about.png"></a>
         </td>
       </tr>
     </tbody>
   </table>
 
-  <h1>About me</h1>
-  <p>
-    My name is Nathan. I enjoy programming. I like biking too.
-    <br><br>
-    URI '27
-  </p>
+  <!-- Completely useless, but I've got a specification to follow. -->
+  <div id="content">
+    <div class="about-content-container">
+      <h1 class="generic-headline">About me</h1>
+      <img src="./nathan.png" class="about-image">
+      <p class="generic-paragraph about-paragraph">
+        My name is Nathan Feinberg. I enjoy programming and exercising. My favorite exercise is biking. Of course, the
+        only bikes available to me now are the stationary ones in the gym. My major is
+        computer
+        science, and I will graduate in the year of 2027. Other hobbies of mine include building computers, building
+        drones, and kayaking.
+      </p>
+
+      <ul id="hobby-list">
+        <li><img id="hobby1-img" alt="An FPV drone." src="./hobby1.png"></li>
+        <li> <img id="hobby2-img" alt="A mountain bike and a stationary bike face off." src="./hobby2.png"></li>
+      </ul>
+
+    </div>
+  </div>
+
 </body>
 
 </html>

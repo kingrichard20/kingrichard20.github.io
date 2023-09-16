@@ -4,13 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nathan's Programming Portfolio</title>
+  <title>Home - Nathan's Programming Portfolio</title>
+  <link rel="stylesheet" href="./styles.css">
 </head>
 
 <body>
-  <img src="./banner.jpg">
+  <img src="./myBanner.png">
 
-  <table width="753px">
+  <table class="nav-table">
     <tbody>
       <tr>
         <td align="center">
@@ -22,18 +23,22 @@
         </td>
 
         <td align="center">
-          <a href="./about.html"><img src="./aboutme.png"></a>
+          <a href="./about.html"><img src="./about.png"></a>
         </td>
       </tr>
     </tbody>
   </table>
-
-  <h1>Welcome to Nathan's Programming Portfolio</h1>
-  <p>
-    This is the portfolio webpage that I programmed in HTML and CSS.
-    <br><br>
-    To navigate, click the buttons below the banner. You can see my projects and learn more about me.
-  </p>
+  <!-- Completely useless, but I've got a specification to follow. -->
+  <div id="content">
+    <div class="generic-content-container">
+      <h1 class="generic-headline">Welcome to Nathan's Programming Portfolio</h1>
+      <p class="generic-paragraph">
+        This is the portfolio webpage that I programmed in HTML and CSS.
+        <br><br>
+        To navigate, click the buttons below the banner. You can see my projects and learn more about me.
+      </p>
+    </div>
+  </div>
 </body>
 
 </html>
